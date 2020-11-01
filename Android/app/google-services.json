@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "749919179242",
+    "firebase_url": "https://newsflash-83224.firebaseio.com",
+    "project_id": "newsflash-83224",
+    "storage_bucket": "newsflash-83224.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749919179242:android:2b5c97172fb621e4686293",
+        "android_client_info": {
+          "package_name": "com.example.newsflash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749919179242-905ld9qji9vd4i9vbqj5o39bkj4qlheo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBA_2QF3eXd6KYy8LbaouUPvYviZqPZIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749919179242-905ld9qji9vd4i9vbqj5o39bkj4qlheo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
