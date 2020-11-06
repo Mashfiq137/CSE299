@@ -7,7 +7,7 @@
     android:background="@drawable/nav_background"
     android:rotationX="0"
     tools:context=".ui.home.HomeFragment">
-
+    
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -15,13 +15,14 @@
         android:layout_marginStart="172dp"
         android:layout_marginTop="60dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Login"
+        android:text="@string/login"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginStart="32dp"
@@ -37,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Enter your username"
+            android:hint="@string/enter_your_username"
             android:inputType="textPersonName" />
 
         <EditText
@@ -46,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:ems="10"
-            android:hint="Enter your password"
+            android:hint="@string/enter_your_password"
             android:inputType="textPersonName" />
 
         <Button
@@ -56,7 +57,7 @@
             android:layout_marginTop="32dp"
             android:background="@drawable/login_button"
             android:fontFamily="sans-serif-medium"
-            android:text="Login" />
+            android:text="@string/login" />
     </LinearLayout>
 
     <Button
@@ -67,7 +68,7 @@
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/login_button2"
-        android:text="Register"
+        android:text="@string/register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -79,7 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginBottom="16dp"
-        android:text="Not a Member? No problem"
+        android:text="@string/not_member"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -89,6 +90,19 @@
         android:id="@+id/text_home"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="353dp" />
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="59dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="350dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
